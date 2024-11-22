@@ -58,7 +58,8 @@ This project supports several **United Nations Sustainable Development Goals (SD
 |-------------------------|------------|--------------------------------|-----------------------|
 | Daniel B. Villanueva    | Developer  | 23-01037@g.batstate-u.edu.ph   | +63 9271646563        |
 
-## Course: 
+## 📘 Course: 
 - CS 211 (Object-oriented Programming)
-## Course Facilitator: 
+
+## 🧑‍🏫 Course Facilitator: 
 - Fatima Marie Agdon
