@@ -2,15 +2,15 @@
 
 <img src="https://raw.githubusercontent.com/danielbvillanueva/Green-Living-Challenge-Tracker/main/green2-single-cropped-01.png" alt="Green Living Challenge Tracker" style="width: 600px; background-color: transparent;">
 
-
 A console-based application that encourages sustainable living by tracking user participation in various environmental challenges.
 
 ## Table of Contents
 1. [Project Overview](#-project-overview)
 2. [Objectives](#-objectives)
 3. [Features](#-features)
-4. [Technologies Used](#backend)
-5. [Contributors](#-contributors)
+4. [SDGs Connection](#-sdgs-connection)
+5. [Technologies Used](#backend)
+6. [Contributors](#-contributors)
 
 ## 🌍 Project Overview
 The Green Living Challenge Tracker is designed to help users engage in and track their participation in environmental challenges. The platform motivates users to complete challenges that promote sustainability, such as reducing plastic use or volunteering for environmental causes. It also includes a leaderboard to foster friendly competition and reward progress with experience points (XP).
@@ -28,6 +28,20 @@ The Green Living Challenge Tracker is designed to help users engage in and track
 - Leaderboard showing top-ranked users based on XP. 🏆
 - Option to create personalized challenges and join predefined ones. 🔧
 - User profiles displaying completed challenges and current rank. 🧑‍💻
+
+## 🌏 SDGs Connection
+This project supports several **United Nations Sustainable Development Goals (SDGs):**
+- **SDG 12: Responsible Consumption and Production**  
+  Encourages users to reduce waste, adopt sustainable habits, and track progress in reducing their ecological footprint.
+  
+- **SDG 13: Climate Action**  
+  Motivates participation in activities like tree planting, energy conservation, and community cleanups to combat climate change.
+
+- **SDG 15: Life on Land**  
+  Supports challenges focused on preserving biodiversity, preventing deforestation, and engaging in ecological restoration.
+
+- **SDG 17: Partnerships for the Goals**  
+  Facilitates collaboration among individuals and groups to collectively work towards achieving sustainability.
 
 ## ⚙️ Technologies Used
 ### Backend
