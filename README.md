@@ -1,6 +1,6 @@
 # Green Living Challenge Tracker
 
-<img src="https://raw.githubusercontent.com/danielbvillanueva/Green-Living-Challenge-Tracker/main/green2-single-cropped-01.png" alt="Green Living Challenge Tracker" style="width: 400px; background-color: transparent;">
+<img src="https://raw.githubusercontent.com/danielbvillanueva/Green-Living-Challenge-Tracker/main/green2-single-cropped-01.png" alt="Green Living Challenge Tracker" style="width: 600px; background-color: transparent;">
 
 
 A console-based application that encourages sustainable living by tracking user participation in various environmental challenges.
