@@ -37,9 +37,6 @@ This project supports several **United Nations Sustainable Development Goals (SD
 - **SDG 13: Climate Action**  
   Motivates participation in activities like tree planting, energy conservation, and community cleanups to combat climate change.
 
-- **SDG 15: Life on Land**  
-  Supports challenges focused on preserving biodiversity, preventing deforestation, and engaging in ecological restoration.
-
 - **SDG 17: Partnerships for the Goals**  
   Facilitates collaboration among individuals and groups to collectively work towards achieving sustainability.
 
