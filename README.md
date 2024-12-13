@@ -9,8 +9,9 @@ A console-based application that encourages sustainable living by tracking user 
 2. [Objectives](#-objectives)
 3. [Features](#-features)
 4. [SDGs Connection](#-sdgs-connection)
-5. [Technologies Used](#backend)
-6. [Contributors](#-contributors)
+5. [Programming Principles](#-programming-principles)
+6. [Technologies Used](#backend)
+7. [Contributors](#-contributors)
 
 ## 🌍 Project Overview
 The Green Living Challenge Tracker is designed to help users engage in and track their participation in environmental challenges. The platform motivates users to complete challenges that promote sustainability, such as reducing plastic use or volunteering for environmental causes. It also includes a leaderboard to foster friendly competition and reward progress with experience points (XP).
@@ -39,6 +40,16 @@ This project supports several **United Nations Sustainable Development Goals (SD
 
 - **SDG 17: Partnerships for the Goals**  
   Facilitates collaboration among individuals and groups to collectively work towards achieving sustainability.
+
+## 🧩 Programming Principles
+This project adheres to fundamental object-oriented programming principles:
+
+- **Encapsulation** 🛡️: Private fields in classes like `User` and `Challenge` protect data integrity, with getters and setters controlling access.
+- **Inheritance** 🪜: `SpecialChallenge` extends `Challenge`, reusing properties and methods to demonstrate a hierarchical relationship.
+- **Polymorphism** 🎭: 
+  - **Method Overriding**: `SpecialChallenge` customizes the `displayDetails()` method to display unique outputs for completed challenges.
+  - **Method Overloading**: In the `User` class, methods such as `addXP()` handle varying parameters for flexibility.
+- **Abstraction** 🎨: The `ChallengeBase` interface defines shared methods like `completeChallenge()`, ensuring implementation consistency across `Challenge` and `SpecialChallenge`.
 
 ## ⚙️ Technologies Used
 ### Backend
