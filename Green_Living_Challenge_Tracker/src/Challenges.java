@@ -2,41 +2,27 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Challenges {
-    private User user;
-    private Database db;
-
-    public Challenges(User user, Database db) {
-        this.user = user;
-        this.db = db;
+interface ChallengeBase {
+        void completeChallenge(User user, Database db);
+        void displayDetails();
     }
 
-    public static class Challenge {
+    class Challenge implements ChallengeBase {
         private int challengeId;
         private String challengeName;
         private int xpReward;
         private String difficulty;
         private int createdByUserId;
-        private String challengeDescription; 
-    
+
         public Challenge(int challengeId, String challengeName, int xpReward, String difficulty, int createdByUserId) {
             this.challengeId = challengeId;
             this.challengeName = challengeName;
             this.xpReward = xpReward;
             this.difficulty = difficulty;
             this.createdByUserId = createdByUserId;
-            this.challengeDescription = "";
-        }
-  
-        public Challenge(int challengeId, String challengeName, int xpReward, String difficulty, int createdByUserId, String challengeDescription) {
-            this.challengeId = challengeId;
-            this.challengeName = challengeName;
-            this.xpReward = xpReward;
-            this.difficulty = difficulty;
-            this.createdByUserId = createdByUserId;
-            this.challengeDescription = challengeDescription;
         }
 
+        // Getters and Setters
         public int getChallengeId() {
             return challengeId;
         }
@@ -56,16 +42,39 @@ public class Challenges {
         public int getCreatedByUserId() {
             return createdByUserId;
         }
-        
-        public String getChallengeDescription() {
-            return challengeDescription;
+
+        @Override
+        public void completeChallenge(User user, Database db) {
+            user.addXP(xpReward, db);
+            System.out.println("Challenge " + challengeName + " completed!");
         }
-    
-        public void setChallengeDescription(String challengeDescription) {
-            this.challengeDescription = challengeDescription;
+
+        @Override
+        public void displayDetails() {
+            System.out.println("Challenge: " + challengeName + " (XP: " + xpReward + ", Difficulty: " + difficulty + ")");
         }
     }
 
+        // Inheritance: SpecialChallenge Class
+    class SpecialChallenge extends Challenge {
+        private String specialReward;
+
+        public SpecialChallenge(int challengeId, String challengeName, int xpReward, String difficulty, int createdByUserId, String specialReward) {
+            super(challengeId, challengeName, xpReward, difficulty, createdByUserId);
+            this.specialReward = specialReward;
+        }
+
+        public String getSpecialReward() {
+            return specialReward;
+        }
+
+        // Overriding displayDetails() for Polymorphism
+        @Override
+        public void displayDetails() {
+            super.displayDetails();
+            System.out.println(specialReward);
+        }
+        
     public void displayChallengesMenu(Scanner scanner) {
         while (true) {
             System.out.println(" -----------------------------------------");
