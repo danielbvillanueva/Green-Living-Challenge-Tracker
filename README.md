@@ -10,8 +10,8 @@ A console-based application that encourages sustainable living by tracking user 
 3. [Features](#-features)  
 4. [SDGs Connection](#-sdgs-connection)  
 5. [Programming Principles](#-programming-principles)  
-6. [Technologies Used](#backend)
-7. [Future Enhancement](#-future-enhancements)
+6. [Technologies Used](#backend)  
+7. [Future Enhancement](#-future-enhancements)  
 8. [Contributors](#-contributors)  
 
 ## 🌍 Project Overview
@@ -73,15 +73,15 @@ This project adheres to fundamental object-oriented programming principles:
 
 ### 🚀 Future Enhancements
 
-- **Mobile Application: Develop a mobile version for broader accessibility.
+- **Mobile Application:** Develop a mobile version for broader accessibility.
 
-- **Gamification Features: Introduce badges and achievements to increase user engagement.
+- **Gamification Features:** Introduce badges and achievements to increase user engagement.
 
-- **Social Integration: Allow users to share progress and challenges on social media.
+- **Social Integration:** Allow users to share progress and challenges on social media.
 
-- **AI Suggestions: Use AI to recommend personalized challenges based on user behavior.
+- **AI Suggestions:** Use AI to recommend personalized challenges based on user behavior.
 
-## 👷‍ Contributors
+## 👷 Contributors
 | Name                    | Role       | Email                          | Other Contacts        |  
 |-------------------------|------------|--------------------------------|-----------------------|  
 | Daniel B. Villanueva    | Developer  | 23-01037@g.batstate-u.edu.ph   | +63 9271646563        |  
