@@ -71,7 +71,7 @@ This project adheres to fundamental object-oriented programming principles:
 ### 👥 User Interface
 - **Console-based:** Provides an interactive command-line interface for users to engage with the system.
 
-### 🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 - **Mobile Application:** Develop a mobile version for broader accessibility.
 
