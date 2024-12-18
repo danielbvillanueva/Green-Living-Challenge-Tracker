@@ -87,7 +87,7 @@ This project adheres to fundamental object-oriented programming principles:
 | Daniel B. Villanueva    | Developer  | 23-01037@g.batstate-u.edu.ph   | +63 9271646563        |  
 
 ## 📘 Course  
-- IT 211 - Database Management System
+- CS 211 - Object-oriented Programming
 
 ## 🧑‍🏫 Course Facilitator  
-- Owen Patrick Falculan
+- Fatima Marie Agdon
